@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string-array name="citiesList">
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Chicago</item>
+        <item>San Francisco</item>
+        <item>Miami</item>
+        <item>Washington</item>
+        <item>Boston</item>
+        <item>Las Vegas</item>
+        <item>Seattle</item>
+        <item>Houston</item>
+        <item>London           </item>
+        <item>Manchester       </item>
+        <item>Birmingham       </item>
+        <item>Glasgow          </item>
+        <item>Liverpool        </item>
+        <item>Edinburgh        </item>
+        <item>Bristol          </item>
+        <item>Cardiff          </item>
+        <item>Toronto          </item>
+        <item>Vancouver        </item>
+        <item>Montreal         </item>
+        <item>Calgary          </item>
+        <item>Ottawa           </item>
+        <item>Quebec City      </item>
+        <item>Edmonton         </item>
+        <item>Winnipeg         </item>
+        <item>Sydney           </item>
+        <item>Melbourne        </item>
+        <item>Brisbane         </item>
+        <item>Perth            </item>
+        <item>Adelaide         </item>
+        <item>Canberra         </item>
+        <item>Darwin           </item>
+        <item>Hobart           </item>
+        <item>New Delhi        </item>
+        <item>Mumbai           </item>
+        <item>Bangalore        </item>
+        <item>Chennai          </item>
+        <item>Kolkata          </item>
+        <item>Hyderabad        </item>
+        <item>Pune             </item>
+        <item>Jaipur           </item>
+        <item>Beijing          </item>
+        <item>Shanghai         </item>
+        <item>Guangzhou        </item>
+        <item>Shenzhen         </item>
+        <item>Chengdu          </item>
+        <item>Hangzhou         </item>
+        <item>Xian            </item>
+        <item>Wuhan            </item>
+        <item>Karachi          </item>
+        <item>Lahore           </item>
+        <item>Islamabad        </item>
+        <item>Faisalabad       </item>
+        <item>Rawalpindi       </item>
+        <item>Multan           </item>
+        <item>Peshawar         </item>
+        <item>Quetta           </item>
+        <item>Paris            </item>
+        <item>Marseille        </item>
+        <item>Lyon             </item>
+        <item>Nice             </item>
+        <item>Toulouse         </item>
+        <item>Bordeaux         </item>
+        <item>Lille            </item>
+        <item>Strasbourg       </item>
+        <item>Berlin           </item>
+        <item>Munich           </item>
+        <item>Hamburg          </item>
+        <item>Frankfurt        </item>
+        <item>Cologne          </item>
+        <item>Stuttgart        </item>
+        <item>Düsseldorf       </item>
+        <item>Leipzig          </item>
+        <item>Rome             </item>
+        <item>Milan            </item>
+        <item>Florence         </item>
+        <item>Venice           </item>
+        <item>Naples           </item>
+        <item>Turin            </item>
+        <item>Bologna          </item>
+        <item>Genoa            </item>
+        <item>Madrid           </item>
+        <item>Barcelona        </item>
+        <item>Valencia         </item>
+        <item>Seville          </item>
+        <item>Zaragoza         </item>
+        <item>Bilbao           </item>
+        <item>Malaga           </item>
+        <item>Murcia           </item>
+        <item>Tokyo            </item>
+        <item>Kyoto            </item>
+        <item>Osaka            </item>
+        <item>Hiroshima        </item>
+        <item>Nagoya           </item>
+        <item>Sapporo          </item>
+        <item>Fukuoka          </item>
+        <item>Okinawa          </item>
+        <item>Seoul            </item>
+        <item>Busan            </item>
+        <item>Incheon          </item>
+        <item>Daegu            </item>
+        <item>Daejeon          </item>
+        <item>Gwangju          </item>
+        <item>Ulsan            </item>
+        <item>Jeju City        </item>
+        <item>São Paulo        </item>
+        <item>Rio de Janeiro   </item>
+        <item>Brasília         </item>
+        <item>Salvador         </item>
+        <item>Fortaleza        </item>
+        <item>Recife           </item>
+        <item>Belo Horizonte   </item>
+        <item>Porto Alegre     </item>
+        <item>Mexico City      </item>
+        <item>Guadalajara      </item>
+        <item>Monterrey        </item>
+        <item>Puebla           </item>
+        <item>Tijuana          </item>
+        <item>Cancún           </item>
+        <item>Mérida           </item>
+        <item>Chihuahua        </item>
+        <item>Moscow (Moskva)  </item>
+        <item>Saint Petersburg </item>
+        <item>Novosibirsk      </item>
+        <item>Yekaterinburg    </item>
+        <item>Kazan            </item>
+        <item>Nizhny Novgorod  </item>
+        <item>Samara           </item>
+        <item>Vladivostok      </item>
+        <item>Dubai            </item>
+        <item>Abu Dhabi        </item>
+        <item>Sharjah          </item>
+        <item>Riyadh           </item>
+        <item>Jeddah           </item>
+        <item>Makkah           </item>
+        <item>Madinah          </item>
+        <item>Taif             </item>
+        <item>Cairo            </item>
+        <item>Doha             </item>
+        <item>Al Rayyan        </item>
+        <item>Al Wakrah        </item>
+        <item>Ghazzah          </item>
+        <item>Istanbul  </item>
+        <item>Ankara    </item>
+        <item>Izmir     </item>
+        <item>Antalya   </item>
+        <item>Bursa     </item>
+        <item>Adana     </item>
+        <item>Konya     </item>
+        <item>Trabzon   </item>
+        <item>Gaziantep </item>
+        <item>Eskisehir </item>
+        <item>Isparta   </item>
+        <item>Mersin    </item>
+        <item>Diyarbakir</item>
+        <item>Samsun  </item>
+        <item>Kusadasi</item>
+    </string-array>
+
+</resources>
