@@ -27,7 +27,7 @@
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20sp"
-            android:paddingTop="40dp"
+            android:paddingTop="25dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:paddingBottom="0dp"
@@ -60,6 +60,7 @@
                 android:id="@+id/SearchButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingRight="5dp"
                 android:layout_weight=".5"
                 android:layout_gravity="center"
                 android:src="@drawable/baseline_search_24"/>
@@ -70,17 +71,17 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="23"
-            android:textSize="70sp"
+            android:textSize="65sp"
             android:textColor="@color/white"
             android:layout_below="@+id/LLayout"
             android:gravity="center_horizontal"
-            android:layout_margin="10dp"
-            android:padding="5dp"/>
+            android:layout_margin="1dp"
+            android:padding="0dp"/>
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/weatherAnimation"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
             android:layout_below="@+id/Temperature"
             android:layout_centerHorizontal="true"
             app:lottie_autoPlay="false"
@@ -104,7 +105,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="165dp"
+            android:layout_height="150dp"
             android:layout_below="@+id/Condition">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -118,7 +119,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:text="Feels like "
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
@@ -131,7 +132,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:text="averageTemp"
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
@@ -144,7 +145,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:text="maxTemp"
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
@@ -157,7 +158,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:text="minTemp"
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
@@ -170,7 +171,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:text="Wind speed"
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
@@ -183,7 +184,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:text="humidity"
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
@@ -196,7 +197,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:text="Clouds"
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
@@ -209,7 +210,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:text="Sunrise"
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
@@ -222,7 +223,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:text="Sunset"
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
@@ -235,7 +236,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:text="Rain chances"
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
@@ -248,7 +249,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:text="Snow chances"
                     android:textAlignment="textStart"
                     android:textColor="@color/white" />
@@ -286,8 +287,8 @@
                android:layout_below="@+id/line"
                android:layout_alignParentBottom="true"
                android:orientation="horizontal"
-               android:paddingTop="20dp"
-               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               android:paddingBottom="0dp"
                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                app:layout_constraintBottom_toBottomOf="parent"
                app:layout_constraintEnd_toEndOf="parent"
