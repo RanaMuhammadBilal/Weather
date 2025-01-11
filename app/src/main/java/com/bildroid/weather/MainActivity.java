@@ -31,6 +31,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
@@ -67,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView Background, SearchButton, Icon;
     TextView CityName, Temperature, Condition, FeelsLike, averageTemp, maxTemp, minTemp, humidity, clouds, rainChance, snowChance;
     TextView sunRise, sunSet, windSpeed;
+    ImageButton refreshBtn;
     AutoCompleteTextView EditInput;
     RecyclerView RecycleWeather;
     LottieAnimationView weatherAnimation;
@@ -85,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
         loading=findViewById(R.id.loading);
         Home=findViewById(R.id.Home);
+        refreshBtn=findViewById(R.id.refresh_btn);
         clouds=findViewById(R.id.clouds);
         snowChance=findViewById(R.id.snowChance);
         rainChance=findViewById(R.id.rainChance);
@@ -109,6 +112,19 @@ public class MainActivity extends AppCompatActivity {
         String[] itemArray = getResources().getStringArray(R.array.citiesList);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, itemArray);
         EditInput.setAdapter(arrayAdapter);
+
+        refreshBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String city = CityName.getText().toString(); // Get the current city name
+                if (city.isEmpty()) {
+                    Toast.makeText(MainActivity.this, "City name is empty. Please search for a city first.", Toast.LENGTH_SHORT).show();
+                } else {
+                    getWeatherInfo(city); // Refresh weather info for the current city
+                    Toast.makeText(MainActivity.this, "Weather data refreshed for " + city, Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
 
 
